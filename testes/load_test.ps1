@@ -10,9 +10,9 @@ if (-not (Test-Path "C:\Program Files (x86)\Apache Software Foundation\Apache24\
 }
 
 $servers = @(
-    @{Name="Ubuntu"; URL="http://192.168.1.100:5000/api/data"},
-    @{Name="Debian"; URL="http://192.168.1.101:5000/api/data"},
-    @{Name="Windows10"; URL="http://192.168.1.102:5000/api/data"}
+    @{Name="Ubuntu"; URL="http://172.21.187.167:5000/api/data"},
+    @{Name="Debian"; URL="http://172.21.186.7:5000/api/data"},
+    @{Name="Windows10"; URL="http://172.21.178.0:5000/api/data"}
 )
 
 $resultsDir = "load_test_results"

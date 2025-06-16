@@ -1,7 +1,6 @@
 
 ## 📄 **sensor.py** (Para o Host Windows)
 
-python
 import requests
 import random
 import time
@@ -9,9 +8,9 @@ from datetime import datetime
 
 # Configuração
 SERVERS = {
-    "Ubuntu": "http://192.168.1.100:5000/api/data",
-    "Debian": "http://192.168.1.101:5000/api/data",
-    "Windows10": "http://192.168.1.102:5000/api/data"
+    "Ubuntu": "http://172.21.187.167:5000/api/data",
+    "Debian": "http://172.21.186.7:5000/api/data",
+    "Wind10": "http://172.21.178.0:5000/api/data"
 }
 
 SENSOR_ID = "sensor-host01"

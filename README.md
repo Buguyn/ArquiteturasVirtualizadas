@@ -20,9 +20,9 @@ Crie 3 máquinas virtuais no Hyper-V:
 
 | VM        | Sistema Operacional | Configuração           |
 |-----------|---------------------|------------------------|
-| vm-ubuntu | Ubuntu 24.04        | 2 vCPU, 8GB RAM, 200GB |
-| vm-debian | Debian 12           | 2 vCPU, 8GB RAM, 200GB |
-| vm-win10  | Windows 10          | 2 vCPU, 8GB RAM, 200GB |
+| vm-ubuntu | Ubuntu 24.04        | 2 vCPU, 6GB RAM, 200GB |
+| vm-debian | Debian 12           | 2 vCPU, 6GB RAM, 200GB |
+| vm-win10  | Windows 10          | 2 vCPU, 6GB RAM, 200GB |
 
 ### 2. Configuração dos Servidores
 
