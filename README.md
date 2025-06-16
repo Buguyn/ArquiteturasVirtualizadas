@@ -16,7 +16,7 @@ Implementação de um sistema IoT básico usando múltiplos servidores em VMs (U
 
 ### 1. Preparação das VMs
 
-Crie 3 máquinas virtuais no Hyper-V:
+Foram criadas 3 máquinas virtuais no Hyper-V:
 
 | VM        | Sistema Operacional | Configuração           |
 |-----------|---------------------|------------------------|
@@ -27,6 +27,7 @@ Crie 3 máquinas virtuais no Hyper-V:
 ### 2. Configuração dos Servidores
 
 Para cada VM:
+utilize a configuração padrão de cada Sistema Operacional
 
 #### Linux (Ubuntu/Debian):
 ```bash
