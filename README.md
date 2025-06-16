@@ -12,7 +12,7 @@ Implementação de um sistema IoT básico usando múltiplos servidores em VMs (U
 - PowerShell 5.1+
 - Chocolatey (para instalação de dependências no Windows)
 
-## 🚀 Configuração
+##  Configuração
 
 ### 1. Preparação das VMs
 
@@ -33,3 +33,32 @@ Para cada VM:
 # Execute o script de setup
 chmod +x setup.sh
 sudo ./setup.sh
+sudo apt install python3 python3-pip python3-flask sqlite3
+```
+#### Windows:
+instalar python3, sqlite3
+```bash
+pip install flask
+```
+
+#### ROOT:
+instalar python3
+```bash
+pip install requests
+```
+
+##  RODAR
+
+#### Linux (Ubuntu/Debian):
+```bash
+python3 server.py
+```
+#### Windows:
+```bash
+python server.py
+```
+#### Host:
+```bash
+cd sensor.py
+python sensor.py
+```

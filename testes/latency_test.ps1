@@ -4,9 +4,9 @@
 #>
 
 $servers = @(
-    "http://172.21.187.167:5000/api/data",  # Ubuntu
-    "http://172.21.186.7:5000/api/data",  # Debian
-    "http://172.21.178.0:5000/api/data"   # Windows 10
+    "http://IP:5000/api/data",  # Ubuntu
+    "http://IP:5000/api/data",  # Debian
+    "http://IP:5000/api/data"   # Windows 10
 )
 
 $results = @()

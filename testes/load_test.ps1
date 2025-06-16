@@ -1,5 +1,5 @@
 <#
-.DESCRIPTION
+                        DESCRIPTION
     Realiza teste de carga nos servidores usando Apache Benchmark
 #>
 
@@ -10,9 +10,9 @@ if (-not (Test-Path "C:\Program Files (x86)\Apache Software Foundation\Apache24\
 }
 
 $servers = @(
-    @{Name="Ubuntu"; URL="http://172.21.187.167:5000/api/data"},
-    @{Name="Debian"; URL="http://172.21.186.7:5000/api/data"},
-    @{Name="Windows10"; URL="http://172.21.178.0:5000/api/data"}
+    @{Name="Ubuntu"; URL="http://IP:5000/api/data"},
+    @{Name="Debian"; URL="http://IP:5000/api/data"},
+    @{Name="Windows10"; URL="http://IP:5000/api/data"}
 )
 
 $resultsDir = "load_test_results"
